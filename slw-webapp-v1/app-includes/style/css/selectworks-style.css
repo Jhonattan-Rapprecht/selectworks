@@ -1,0 +1,62 @@
+	
+	
+	/* Custom stylesheet */
+
+	body
+	
+	{
+	
+	margin 0;
+	padding: 0px;
+	
+	}
+	
+  .page-header p
+
+ 	{
+
+ 	padding-left: 10px;
+	padding-top: 50px;
+ 	text-align: center;
+ 		   
+ 	}
+ 	
+ 	.panel-container
+ 	
+	{
+ 	
+ 	z-index: 2000; 
+	position: fixed; 
+	right: 25%; 
+	top: 15%; 
+	width: 52%; 
+	margin-left: auto; 
+	margin-right: auto; 
+	height: 500px; 
+	background-color: white; 
+	padding: 50px; 
+	border: 10px solid black; 
+	border-radius: 1%;
+
+	}
+	
+	/* The Close Button for the content panel */
+	
+	.close {
+  color: grey;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ 	footer
+
+ 	{
+	
+
+ 	padding-top: 50px;
+ 	margin-left:auto; 		   
+ 	margin-right: auto;
+ 
+
+ 	}
