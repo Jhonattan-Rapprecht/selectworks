@@ -1,22 +1,25 @@
-name: 🚀 Deploy to Strato
+name: 🚀 Deploy to Strato via SFTP
 on:
   push:
     branches: [ main ]
 
 jobs:
   deploy:
+    name: 📤 Deploy
     runs-on: ubuntu-latest
+
     steps:
     - name: 🛎 Checkout code
       uses: actions/checkout@v4
 
-    - name: 📤 Deploy via SFTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    # This action is built specifically for SFTP
+    - name: 📂 Sync files with SFTP
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        server: ssh.strato.com
         username: ${{ secrets.SFTP_USERNAME }}
-        password: ${{ secrets.SFTP_PASSWORD }}
+        server: ${{ secrets.SFTP_SERVER }}  # Or use 'ssh.strato.com' directly here
+        password: ${{ secrets.SFTP_PASSWORD }}  # Use this OR ssh_private_key, not both
         port: 22
-        server-dir: /selectworks/
-        local-dir: ./
-        protocol: sftp
+        local_path: './*'       # Uploads the contents of the repo root
+        remote_path: '/selectworks/'
+        # args: '-r'   # Optional: use for recursive upload if needed
