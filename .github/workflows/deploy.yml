@@ -1,0 +1,27 @@
+name: 🚀 Deploy to Strato via SFTP
+on:
+  push:
+    branches: [ main ] # Trigger this action only when code is pushed to the "main" branch
+
+jobs:
+  deploy:
+    name: 🎯 Deploy
+    runs-on: ubuntu-latest # The OS the action will run on
+
+    steps:
+      # Step 1: Checkout your code from the repository
+      - name: 🛎 Checkout
+        uses: actions/checkout@v4
+
+      # Step 2: Deploy files via SFTP
+      - name: 📤 Sync Files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4 # A popular, reliable action for SFTP
+        with:
+          server: ${{ secrets.SFTP_SERVER }} # e.g., sftp.strato.com or your server IP
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          port: 22
+          server-dir: /selectworks/ # The crucial part! Your remote directory on Strato
+          local-dir: ./ # The local directory to upload (root of your project)
+          # Optional: Add dangerous: true to allow cleaning files on the server that don't exist locally
+          # dangerous: true
