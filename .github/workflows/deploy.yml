@@ -10,12 +10,22 @@ jobs:
     - name: 🛎 Checkout code
       uses: actions/checkout@v4
 
-    - name: 📤 Deploy via SCP
+    - name: 📤 Deploy index.php to root
       uses: garygrossgarten/github-action-scp@release
       with:
         host: ssh.strato.com
         username: ${{ secrets.SFTP_USERNAME }}
         password: ${{ secrets.SFTP_PASSWORD }}
         port: 22
-        local: slw-webapp-v1/  # Just deploy this specific folder
+        local: index.php
+        remote: /
+
+    - name: 📤 Deploy slw-webapp-v1 folder
+      uses: garygrossgarten/github-action-scp@release
+      with:
+        host: ssh.strato.com
+        username: ${{ secrets.SFTP_USERNAME }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        port: 22
+        local: slw-webapp-v1/
         remote: /slw-webapp-v1/
