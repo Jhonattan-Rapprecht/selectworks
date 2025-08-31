@@ -17,5 +17,8 @@ jobs:
         username: ${{ secrets.SFTP_USERNAME }}
         password: ${{ secrets.SFTP_PASSWORD }}
         port: 22
-        local: ./*
+        local: |
+          index.php
+          slw-webapp-v1/
+          .github/workflows/
         remote: /slw-webapp-v1/
