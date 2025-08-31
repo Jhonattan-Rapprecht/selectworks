@@ -24,12 +24,12 @@
 		
 		<!-- Content panel(s) javascript files -->
 		
-		<script src="/selectworks/slw-webapp-v1/app-includes/content-panels/content-panel-a.js"></script>
+		<script src="/slw-webapp-v1/app-includes/content-panels/content-panel-a.js"></script>
 
 		
 		<!-- Content 'loader' javascript files -->
 		
-		<script src="/selectworks/slw-webapp-v1/app-animations/loading bars/Preloader-master/preloader.js"></script>
+		<script src="/slw-webapp-v1/app-animations/loading bars/Preloader-master/preloader.js"></script>
 		
 		
 		<!-- Animations javascript files -->
@@ -41,7 +41,7 @@
 
 		<script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
 		
-		<script src="/selectworks/slw-webapp-v1/app-includes/content-panels/cookiebar.js"></script>
+		<script src="/slw-webapp-v1/app-includes/content-panels/cookiebar.js"></script>
 
 		
 </body>

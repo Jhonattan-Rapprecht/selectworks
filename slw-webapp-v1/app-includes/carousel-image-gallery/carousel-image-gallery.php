@@ -15,7 +15,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="/selectworks/slw-webapp-v1/app-includes/carousel-image-gallery/images/Construction images/A.jpg" alt="First slide">
+          <img class="first-slide" src="/slw-webapp-v1/app-includes/carousel-image-gallery/images/Construction images/A.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Veel werk?.. maar geen personeel?!</h1>
@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="/selectworks/slw-webapp-v1/app-includes/carousel-image-gallery/images/Construction images/IMG_4.jpg" alt="Second slide">
+          <img class="second-slide" src="/slw-webapp-v1/app-includes/carousel-image-gallery/images/Construction images/IMG_4.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Krijg meer ruimte en voel u vrij..</h1>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="/selectworks/slw-webapp-v1/app-includes/carousel-image-gallery/images/Construction images/C.jpg" alt="Third slide">
+          <img class="third-slide" src="/slw-webapp-v1/app-includes/carousel-image-gallery/images/Construction images/C.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Geen lat is te hoog gegrepen voor ons..</h1>

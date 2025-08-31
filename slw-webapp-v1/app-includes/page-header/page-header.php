@@ -13,7 +13,7 @@
 					<img 
 					
 							 style="width:350px; height:auto;" 
-						 	 src="/selectworks/slw-webapp-v1/app-includes/page-header/images/Selectworks-type1-barebones2.png" 
+						 	 src="/slw-webapp-v1/app-includes/page-header/images/Selectworks-type1-barebones2.png" 
 						 	 alt="selectworks-home">
 				
 				</a>

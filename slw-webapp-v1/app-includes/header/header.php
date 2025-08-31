@@ -1,6 +1,6 @@
-<?php
+<?php 
 
-$root = $_SERVER['DOCUMENT_ROOT'];
+$root = $_SERVER['DOCUMENT_ROOT']; 
 
 ?>
 
@@ -28,27 +28,21 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
 		
-		<link rel="stylesheet" href="/selectworks/slw-webapp-v1/app-includes/style/css/carousel.css">
+		<link rel="stylesheet" href="https://www.selectworks.nl/slw-webapp-v1/app-includes/style/css/carousel.css">
 		
-		<link rel="stylesheet" href="/selectworks/slw-webapp-v1/app-includes/style/css/selectworks-style.css">
+		<link rel="stylesheet" href="https://www.selectworks.nl/slw-webapp-v1/app-includes/style/css/selectworks-style.css">
 		
-		<link rel="stylesheet" href="/selectworks/slw-webapp-v1/app-includes/services/services-style.css">
+		<link rel="stylesheet" href="https://www.selectworks.nl/slw-webapp-v1/app-includes/services/services-style.css">
 		
 		<!-- Stylesheets animations-->
 		
-		<link rel="stylesheet" href="/selectworks/slw-webapp-v1/app-animations/combined-animations.css">
+		<link rel="stylesheet" href="https://www.selectworks.nl/slw-webapp-v1/app-animations/combined-animations.css">
 		
-		<link rel="stylesheet" href="/selectworks/slw-webapp-v1/app-animations/loading bars/Preloader-master/preloader.css" >
-
+		<link rel="stylesheet" href="https://www.selectworks.nl/slw-webapp-v1/app-animations/loading bars/Preloader-master/preloader.css" >
 		
-		<!-- Include the preloader animation -->
-
-		
-		<script src="/selectworks/slw-webapp-v1/app-animations/loading%20bars/Preloader-master/demonstration.js"></script>
-
 		<!-- Address bar icon / favicon-->
 		
-		<link rel="icon" type="image/png" href="/selectworks/slw-webapp-v1/app-includes/header/favicon/Selectworks-type2.png">
+		<link rel="icon" type="image/png" href="https://www.selectworks.nl/slw-webapp-v1/app-includes/header/favicon/Selectworks-type2.png">
 		
 		<title>
 		
